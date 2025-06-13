@@ -140,9 +140,9 @@ exports('CreateFranklinAunt', function(spawn)
     return CreateShell(spawn, exit, model)
 end)
 
-exports('CreateGarageMed', function(spawn)
+exports('CreateGaragem', function(spawn)
     local exit = json.decode('{"x": 13.90, "y": 1.63, "z": 1.0, "h": 87.05}')
-    local model = 'shell_garagemed'
+    local model = 'shell_garagem'
     return CreateShell(spawn, exit, model)
 end)
 
